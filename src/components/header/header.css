@@ -1,0 +1,31 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+}
+.header-logo {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.header-menuList-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.header-menuList {
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+}
+.header-profile-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}

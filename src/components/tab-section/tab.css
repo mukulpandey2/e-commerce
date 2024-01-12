@@ -1,0 +1,45 @@
+.tab-container {
+  width: 25%;
+}
+
+.tabList-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+}
+.tabList {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #767676;
+  cursor: pointer;
+}
+.activeTabList {
+  font-weight: 700;
+  color: #000;
+}
+.tab-container-para-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.875rem;
+  gap: 2rem;
+}
+.tab-container-para {
+  text-align: justify;
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.tab-container-span {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #000;
+}
+.tab-editor {
+  text-decoration: underline;
+}
+.tab-designer {
+  text-decoration: underline;
+}

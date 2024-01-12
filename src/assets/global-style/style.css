@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1068px) {
+  .header-menuList-wrap {
+    gap: 10px;
+  }
+  /* .header-container {
+    padding: 1rem;
+  } */
+
+  .header-menuList {
+    font-size: 0.75rem;
+  }
+  /* .home-image {
+    width: 350px;
+  }
+  .home-image1 {
+    width: 200px;
+  } */
+}
+@media only screen and (max-width: 967px) {
+  /* .home-image1 {
+    width: 180px;
+  } */
+  .home-image-wrapper {
+    padding: 0 1rem;
+  }
+  .tabList-wrap {
+    gap: 0.875rem;
+  }
+  .header-profile-wrap {
+    gap: 0.625rem;
+  }
+
+  .shopping-details-heading1 {
+    font-size: 2.5rem;
+  }
+  .shopping-details-size-list {
+    width: 70px;
+  }
+  .footer-about-wrap {
+    width: 70%;
+  }
+  .avtarIcon {
+    display: none;
+  }
+  .header-menuList-wrap {
+    display: none;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .footer-about-wrap {
+    width: 85%;
+  }
+  .footer-about-para {
+    font-size: 1.5rem;
+  }
+  .footer-about-heading {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .home-heart {
+    width: 30px;
+  }
+  .shopping-details-size-list {
+    width: 65px;
+  }
+}
+@media only screen and (min-width: 967px) {
+  .barIcon {
+    display: none;
+  }
+  .sidebar-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .shopping-details-size-list {
+    width: 65px;
+  }
+  .home-image-wrapper {
+    display: none;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .shopping-details-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .shopping-details-container {
+    padding-left: 0;
+  }
+  .tab-container {
+    width: 100%;
+    padding-top: 2rem;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .sliderMain {
+    display: none;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .sileder-imageWrap {
+    width: 70%;
+  }
+  .activeSidebar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .sileder-imageWrap {
+    width: 100%;
+  }
+  .shopping-details-heading1 {
+    font-size: 2rem;
+  }
+  .shopping-details-color {
+    width: 100%;
+  }
+  .footer-about-para {
+    font-size: 1.2rem;
+  }
+}
